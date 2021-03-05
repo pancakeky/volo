@@ -1,0 +1,550 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    font-size: 21px;
+    color: black;
+}
+
+.header {
+    display: -ms-flexbox;
+    display: flex;
+    height: 7rem;
+    width: 100%;
+    background-color: #1F2326;
+}
+
+.header_left {
+    height: 100%;
+    width: 85%;
+}
+
+.header_logo {
+    position: absolute;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+}
+
+.logo1 {
+    width: 5rem;
+    border-right: 0.2rem solid #ffffff;
+    padding-right: 2rem;
+}
+
+.logo2 {
+    height: 2.5rem;
+    padding-left: 2rem;
+}
+
+.headerleft_menu {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 7rem;
+}
+
+.menucon {
+    position: relative;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 20rem;
+}
+
+.headerleftknopki {
+    font-size: 1rem;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffffff;
+    padding-right: 2rem;
+}
+
+.header_right {
+    height: 100%;
+    width: 15%;
+}
+
+.header_menuright {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 7rem;
+}
+
+.iconka {
+    width: 3rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.profil {
+    position: absolute;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-left: 1.5rem;
+    font-family: "Montserrat";
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.main {
+    width: 100%;
+    height: 100rem;
+    background-image: url(../../../assets/images/background.png);
+    background-color: #FF4656;
+    background-size: 150rem 100rem;
+    background-repeat: no-repeat;
+}
+
+.container {
+    position: absolute;
+    display: -ms-flexbox;
+    display: flex;
+    width: 135rem;
+    height: 70rem;
+    margin-left: 3rem;
+    margin-top: 5rem;
+    opacity: 1;
+}
+
+.mainlogo {
+    height: 6rem;
+    padding-top: 55rem;
+}
+
+p1 {
+    letter-spacing: 5rem;
+    color: rgba(255, 70, 86, 0.3);
+    font-family: "Oswald";
+    font-weight: lighter;
+    font-size: 10rem;
+    -webkit-text-stroke: 1px white;
+    text-align: center;
+}
+
+.PHOENIX:hover {
+    margin-left: 4rem;
+}
+
+.PHOENIX {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    border: 0;
+    width: 20rem;
+    height: 40rem;
+    margin-top: 10rem;
+    margin-left: 2rem;
+    background-color: #1F2326;
+    z-index: 1000;
+    margin-right: 5rem;
+    border-radius: 1rem 0 0 0;
+    color: #1F2326;
+}
+
+.PHOENIXcontainer {
+    position: relative;
+    width: 20rem;
+    height: 40rem;
+}
+
+.PHOENIXart {
+    position: absolute;
+    width: 20rem;
+    height: 40rem;
+    left: 0;
+}
+
+.PHOENIXtext {
+    position: absolute;
+    left: -10%;
+    top: 5%;
+    font-family: "Oswald";
+    font-weight: 500;
+    font-size: 3rem;
+    letter-spacing: 2rem;
+    color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke: 1px white;
+}
+
+.Champtext {
+    position: relative;
+    top: 5%;
+    left: 8%;
+    font-family: "Oswald";
+    font-weight: 500;
+    font-size: 2rem;
+    color: #FF4656;
+}
+
+.skillcontainer {
+    position: relative;
+    width: 20rem;
+    height: 5rem;
+    background-color: #1F2326;
+    top: 60%;
+    left: 10%;
+    border: 2px solid #F8F8F8;
+}
+
+.skills {
+    width: 2rem;
+    height: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1.5rem;
+    padding-left: 1rem;
+}
+
+.JETT:hover {
+    margin-left: 4rem;
+}
+
+.JETT {
+    color: #1F2326;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    border: 0;
+    width: 20rem;
+    height: 40rem;
+    margin-top: 10rem;
+    margin-left: 2rem;
+    background-color: #1F2326;
+    z-index: 1000;
+    margin-right: 5rem;
+    border-radius: 1rem 0 0 0;
+}
+
+.JETTcontainer {
+    position: relative;
+    width: 20rem;
+    height: 40rem;
+}
+
+.JETTart {
+    position: absolute;
+    width: 20rem;
+    height: 40rem;
+    left: 0;
+}
+
+.JETTtext {
+    position: absolute;
+    left: -10%;
+    top: 5%;
+    font-family: "Oswald";
+    font-weight: 500;
+    font-size: 3rem;
+    letter-spacing: 2rem;
+    color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke: 1px white;
+}
+
+.Champ2text {
+    position: relative;
+    top: 5%;
+    left: 8%;
+    font-family: "Oswald";
+    font-weight: 500;
+    font-size: 2rem;
+    color: #FF4656;
+}
+
+.skillJETTcontainer {
+    position: relative;
+    width: 20rem;
+    height: 5rem;
+    background-color: #1F2326;
+    top: 67%;
+    left: 10%;
+    border: 2px solid #F8F8F8;
+}
+
+.skillsJETT {
+    width: 2rem;
+    height: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1.5rem;
+    padding-left: 1rem;
+}
+
+.SOVA:hover {
+    margin-left: 4rem;
+}
+
+.SOVA {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    border: 0;
+    width: 20rem;
+    height: 40rem;
+    margin-top: 10rem;
+    margin-left: 2rem;
+    background-color: #1F2326;
+    z-index: 1000;
+    margin-right: 5rem;
+    border-radius: 1rem 0 0 0;
+    color: #1F2326;
+}
+
+.SOVAcontainer {
+    position: relative;
+    width: 20rem;
+    height: 40rem;
+}
+
+.SOVAart {
+    position: absolute;
+    width: 20rem;
+    height: 40rem;
+    left: 0;
+}
+
+.SOVAtext {
+    position: absolute;
+    left: -10%;
+    top: 5%;
+    font-family: "Oswald";
+    font-weight: 500;
+    font-size: 3rem;
+    letter-spacing: 2rem;
+    color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke: 1px white;
+}
+
+.Champ3text {
+    position: relative;
+    top: 5%;
+    left: 8%;
+    font-family: "Oswald";
+    font-weight: 500;
+    font-size: 2rem;
+    color: #FF4656;
+}
+
+.skillSOVAcontainer {
+    position: relative;
+    width: 20rem;
+    height: 5rem;
+    background-color: #1F2326;
+    top: 78%;
+    left: 10%;
+    border: 2px solid #F8F8F8;
+}
+
+.skillsSOVA {
+    width: 2rem;
+    height: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1.5rem;
+    padding-left: 1rem;
+}
+
+.SAGE:hover {
+    margin-left: 4rem;
+}
+
+.SAGE {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    border: 0;
+    width: 20rem;
+    height: 40rem;
+    margin-top: 10rem;
+    margin-left: 2rem;
+    background-color: #f8f8f8;
+    z-index: 1000;
+    margin-right: 5rem;
+    border-radius: 1rem 0 0 0;
+    color: #ffffff;
+}
+
+.SAGEcontainer {
+    position: relative;
+    width: 20rem;
+    height: 40rem;
+}
+
+.SAGEart {
+    position: absolute;
+    width: 20rem;
+    height: 40rem;
+    left: 0;
+}
+
+.SAGEtext {
+    position: absolute;
+    left: -10%;
+    top: 5%;
+    font-family: "Oswald";
+    font-weight: 500;
+    font-size: 3rem;
+    letter-spacing: 2rem;
+    color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke: 1px #1F2326;
+}
+
+.Champ4text {
+    position: relative;
+    top: 5%;
+    left: 8%;
+    font-family: "Oswald";
+    font-weight: 500;
+    font-size: 2rem;
+    color: #FF4656;
+}
+
+.skillSAGEcontainer {
+    position: relative;
+    width: 20rem;
+    height: 5rem;
+    background-color: #ffffff;
+    top: 80%;
+    left: 10%;
+    border: 2px solid #1F2326;
+}
+
+.skillsSAGE {
+    width: 2rem;
+    height: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1.5rem;
+    padding-left: 1rem;
+}
+
+.containerskill {
+    display: -ms-flexbox;
+    display: flex;
+    width: 120%;
+    height: 20rem;
+    margin-top: 62%;
+    z-index: 1500;
+}
+
+.containerbasic {
+    border-radius: 5px 0 0 0;
+    width: 30rem;
+    height: 10rem;
+    background-color: #ffffff;
+    border: 2px solid #1F2326;
+    margin-right: 5rem;
+    margin-top: 3rem;
+}
+
+.containersignature {
+    border-radius: 5px 0 0 0;
+    width: 30rem;
+    height: 10rem;
+    background-color: #ffffff;
+    border: 2px solid #1F2326;
+    margin-right: 5rem;
+    margin-top: 3rem;
+}
+
+.containerultimate {
+    border-radius: 5px 0 0 0;
+    width: 30rem;
+    height: 10rem;
+    background-color: #ffffff;
+    border: 2px solid #1F2326;
+    margin-right: 7rem;
+    margin-top: 3rem;
+}
+
+.containernehthero {
+    border-radius: 5px 0 0 0;
+    width: 9rem;
+    height: 10rem;
+    background-color: #ffffff;
+    border: 2px solid #1F2326;
+    margin-top: 3rem;
+}
+
+.BASIC {
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    color: #1F2326;
+    font-family: "Oswald";
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.SlowOrb {
+    position: absolute;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    font-family: "Oswald";
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.basictext {
+    position: absolute;
+    text-align: left;
+    margin-top: 5rem;
+    margin-left: 1rem;
+    width: 19rem;
+    height: 10rem;
+    color: #1F2326;
+    line-height: 1.5rem;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.Basicimg {
+    position: absolute;
+    width: 7rem;
+    margin-left: 22rem;
+    margin-top: 2rem;
+    z-index: 2000;
+}
+
+.pinkbasic {
+    position: absolute;
+    margin-left: 20rem;
+    margin-top: 4rem;
+    width: 7rem;
+    height: 6rem;
+    background-color: #FF4656;
+}
+
+.containerpologon {
+    position: relative;
+    width: 9rem;
+    height: 10rem;
+}
+
+.pologon {
+    padding: 4rem;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 10rem;
+}
